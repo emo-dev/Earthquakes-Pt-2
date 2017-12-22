@@ -1,0 +1,49 @@
+svg {
+    border: 1px solid #3f87a6;
+},
+
+h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+},
+
+.data-stat {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.starter-template {
+  padding: 20px 15px, 40px, 15px;
+  text-align: center;
+}
+
+blockquote {
+	padding: 0px 20px;
+	margin-top: 10px;
+	border: none;
+	font-size: 16px;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+}
+
+#continent-country, #stats-year {
+  position: absolute;
+  text-align: right;
+  padding-right: 35px;
+  top: 0; 
+  left: 480px; 
+  width: 300px; 
+}
+
+#stats-year {
+  height: 100%;
+  width: 100%; 
+  left: 0;
+  font-size: 250px;
+  text-align: center;
+  opacity: 0.1;
+  pointer-events: none;
+}
